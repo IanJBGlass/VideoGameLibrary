@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8886770521482F2D0027704C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886770421482F2D0027704C /* Menu.swift */; };
+		8897B86C214AD35500361DE2 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897B86B214AD35500361DE2 /* Library.swift */; };
+		88AC912D2146E994006B24A2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC912C2146E994006B24A2 /* Game.swift */; };
 		88CDBAEE2146E45B009F8314 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDBAED2146E45B009F8314 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8886770421482F2D0027704C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		8897B86B214AD35500361DE2 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		88AC912C2146E994006B24A2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		88CDBAEA2146E45B009F8314 /* VideoGameLibrary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VideoGameLibrary; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CDBAED2146E45B009F8314 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				88CDBAED2146E45B009F8314 /* main.swift */,
+				8897B86B214AD35500361DE2 /* Library.swift */,
+				8886770421482F2D0027704C /* Menu.swift */,
+				88AC912C2146E994006B24A2 /* Game.swift */,
 			);
 			path = VideoGameLibrary;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8886770521482F2D0027704C /* Menu.swift in Sources */,
 				88CDBAEE2146E45B009F8314 /* main.swift in Sources */,
+				8897B86C214AD35500361DE2 /* Library.swift in Sources */,
+				88AC912D2146E994006B24A2 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
